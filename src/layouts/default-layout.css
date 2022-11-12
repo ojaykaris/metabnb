@@ -1,0 +1,136 @@
+.default-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.default-layout .top-bar {
+  margin-top: 43px;
+  width: 100%;
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 16px;
+}
+
+.default-layout .top-bar a {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #434343;
+
+  text-decoration: none;
+}
+
+.button {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border-radius: 10px;
+  padding: 15px 27px;
+  border: none;
+  cursor: pointer;
+
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: #1d1d1e;
+  padding: 63px 0;
+}
+
+.default-layout .footer .footer-content {
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.default-layout .footer .footer-content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.default-layout .footer .footer-content div ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.footer .footer-social-links {
+  display: flex;
+  gap: 41px;
+  margin-top: 80px;
+}
+
+.footer .footer-copyright-message {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #f7f7f7;
+}
+
+.footer .footer-links-header {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.footer li a {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  color: #f1f3f9;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .default-layout .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .default-layout .footer .footer-content {
+    flex-direction: row;
+    gap: unset;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1024px) {
+  .default-layout .top-nav {
+    display: flex;
+    gap: 48px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .default-layout .top-bar {
+    padding: 0;
+  }
+}
