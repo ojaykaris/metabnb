@@ -1,0 +1,180 @@
+.home-page {
+  margin-top: 58px;
+}
+
+.home-page .hero {
+  padding: 67px 0;
+}
+
+.home-page .hero .hero-text {
+  max-width: 646px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .home-page .hero .hero-text {
+    margin: 0;
+  }
+}
+
+.hero-form {
+  display: grid;
+  grid-template-areas: "input input button";
+  max-width: 618.71px;
+}
+
+.hero-form input {
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0px 0px 8px;
+  padding: 19px 15px;
+  outline: none;
+
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  grid-area: input;
+}
+
+.hero-form button {
+  border-radius: 0px 8px 8px 0px;
+  padding: 19px;
+
+  font-size: 16px;
+  line-height: 130%;
+  grid-area: button;
+}
+
+.hero .hero-title {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #434343;
+}
+.hero .hero-subtitle {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: #434343;
+}
+
+.hero .hero-title span {
+  color: #a02279;
+  font-weight: 700;
+}
+
+.partners {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  padding: 10px 0;
+}
+
+.partners .container {
+  max-width: 1162px;
+}
+
+.inspiration {
+  padding: 58px 0 53px;
+}
+
+.inspiration h3 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+
+.metabnb {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  padding: 100px 0;
+}
+
+.metabnb .text {
+  max-width: 415px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1440px) {
+  .metabnb .text {
+    margin: 0;
+  }
+}
+
+.metabnb h3,
+.metabnb p {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 60px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.metabnb p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+@media (min-width: 768px) {
+  .hero .hero-title {
+    font-size: 56px;
+  }
+  .hero .hero-subtitle {
+    font-size: 24pz;
+  }
+  .inspiration h3 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .metabnb h3 {
+    font-size: 48px;
+  }
+}
+
+.button--light {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  color: #a02279;
+}
+
+.metabnb .images {
+  max-width: 704px;
+  width: 704px;
+  height: 574.85px;
+  position: relative;
+}
+
+.metabnb .images img {
+  width: 435px;
+  position: absolute;
+}
+
+.metabnb .images img:first-child {
+  top: 0;
+  right: 20px;
+}
+
+.metabnb .images img:nth-child(2) {
+  left: 0;
+  bottom: 13.56px;
+}
+
+.metabnb .images img:last-child {
+  right: 0;
+  bottom: 0;
+  left: auto;
+}

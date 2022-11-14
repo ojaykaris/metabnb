@@ -1,0 +1,66 @@
+.places-page {
+  padding: 115px 0 92px;
+}
+
+.places-page .filter-button,
+.places-page .settings-button {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #434343;
+  white-space: nowrap;
+}
+
+.places-page .settings-button {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+  padding: 12px 16px;
+  flex-shrink: 0;
+}
+
+.places-page .filter-buttons {
+  overflow-x: auto;
+}
+
+/* total width */
+.places-page .filter-buttons::-webkit-scrollbar {
+  background-color: #fff;
+  width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+.places-page .filter-buttons::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+.places-page .filter-buttons::-webkit-scrollbar-track:hover {
+  background-color: #f4f4f4;
+}
+
+/* scrollbar itself */
+.places-page .filter-buttons::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 16px;
+  border: 5px solid #fff;
+  display: none;
+}
+
+.places-page .filter-buttons:hover::-webkit-scrollbar-thumb {
+  display: block;
+}
+.places-page .filter-buttons::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a5;
+  border: 4px solid #f4f4f4;
+}
+
+/* set button(top and bottom of the scrollbar) */
+.places-page .filter-buttons::-webkit-scrollbar-button {
+  display: none;
+}
